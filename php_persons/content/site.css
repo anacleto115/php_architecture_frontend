@@ -1,0 +1,152 @@
+body 
+{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code 
+{
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+/* Menu --------------------- */
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #999a9d;
+}
+
+li 
+{
+  float: left;
+}
+
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) 
+{
+  color: white;
+  background-color: #c5c5c5;
+}
+
+.active 
+{
+  background-color: grey;
+}
+
+/* Popups --------------------- */
+.popup 
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.popup_inner 
+{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 25%;
+    width: 500px;
+    height: 340px;
+    margin: auto;
+    background: white;
+}
+
+.popup_inner_delete 
+{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 25%;
+    width: 380px;
+    height: 180px;
+    margin: auto;
+    background: white;
+}
+
+/* Maps --------------------- */
+#map 
+{
+    height: 90vh;
+    width: 80%;
+}
+
+/* Tables --------------------- */
+.tables
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.tables td, #tables th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tables tr:nth-child(even) 
+{
+    background-color: #f2f2f2;
+}
+
+.tables tr:hover 
+{
+    background-color: #ddd;
+}
+
+.tables th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: gray;
+    color: white;
+}
+
+/* Forms --------------------- */
+.field-row 
+{
+    text-align: center;
+    width: 35%;
+    height: 30px;
+}
+
+.field-label 
+{
+    font-weight: bold;
+    display: block;
+    width: 30%;
+    float: left;
+}
+
+.field-row .field-container 
+{
+    width: 70%;
+    float: right;
+}
